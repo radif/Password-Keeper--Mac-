@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73566F7714A00D0E00EF64DE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73566F7614A00D0E00EF64DE /* Cocoa.framework */; };
+		73566F8114A00D0F00EF64DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73566F7F14A00D0F00EF64DE /* InfoPlist.strings */; };
+		73566F8314A00D0F00EF64DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73566F8214A00D0F00EF64DE /* main.m */; };
+		73566F8714A00D0F00EF64DE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 73566F8514A00D0F00EF64DE /* Credits.rtf */; };
+		73566F8A14A00D0F00EF64DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73566F8914A00D0F00EF64DE /* AppDelegate.m */; };
+		73566F8D14A00D1000EF64DE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73566F8B14A00D1000EF64DE /* MainMenu.xib */; };
+		73566F9714A00D4B00EF64DE /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 73566F9614A00D4B00EF64DE /* NSData+CommonCrypto.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		73566FA114A0307F00EF64DE /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 73566FA014A0307F00EF64DE /* Icon.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		73566F7214A00D0E00EF64DE /* Passwords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Passwords.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73566F7614A00D0E00EF64DE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		73566F7914A00D0E00EF64DE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		73566F7A14A00D0E00EF64DE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		73566F7B14A00D0E00EF64DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		73566F7E14A00D0E00EF64DE /* Passwords-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Passwords-Info.plist"; sourceTree = "<group>"; };
+		73566F8014A00D0F00EF64DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		73566F8214A00D0F00EF64DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		73566F8414A00D0F00EF64DE /* Passwords-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Passwords-Prefix.pch"; sourceTree = "<group>"; };
+		73566F8614A00D0F00EF64DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		73566F8814A00D0F00EF64DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		73566F8914A00D0F00EF64DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		73566F8C14A00D1000EF64DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		73566F9514A00D4B00EF64DE /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		73566F9614A00D4B00EF64DE /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		73566FA014A0307F00EF64DE /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73566F6F14A00D0E00EF64DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73566F7714A00D0E00EF64DE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73566F6714A00D0D00EF64DE = {
+			isa = PBXGroup;
+			children = (
+				73566F7C14A00D0E00EF64DE /* Passwords */,
+				73566F7514A00D0E00EF64DE /* Frameworks */,
+				73566F7314A00D0E00EF64DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73566F7314A00D0E00EF64DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73566F7214A00D0E00EF64DE /* Passwords.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73566F7514A00D0E00EF64DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73566F7614A00D0E00EF64DE /* Cocoa.framework */,
+				73566F7814A00D0E00EF64DE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73566F7814A00D0E00EF64DE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73566F7914A00D0E00EF64DE /* AppKit.framework */,
+				73566F7A14A00D0E00EF64DE /* CoreData.framework */,
+				73566F7B14A00D0E00EF64DE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		73566F7C14A00D0E00EF64DE /* Passwords */ = {
+			isa = PBXGroup;
+			children = (
+				73566F9314A00D4B00EF64DE /* libs */,
+				73566F8814A00D0F00EF64DE /* AppDelegate.h */,
+				73566F8914A00D0F00EF64DE /* AppDelegate.m */,
+				73566F8B14A00D1000EF64DE /* MainMenu.xib */,
+				73566F7D14A00D0E00EF64DE /* Supporting Files */,
+			);
+			path = Passwords;
+			sourceTree = "<group>";
+		};
+		73566F7D14A00D0E00EF64DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73566FA014A0307F00EF64DE /* Icon.icns */,
+				73566F7E14A00D0E00EF64DE /* Passwords-Info.plist */,
+				73566F7F14A00D0F00EF64DE /* InfoPlist.strings */,
+				73566F8214A00D0F00EF64DE /* main.m */,
+				73566F8414A00D0F00EF64DE /* Passwords-Prefix.pch */,
+				73566F8514A00D0F00EF64DE /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73566F9314A00D4B00EF64DE /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				73566F9414A00D4B00EF64DE /* Crypto */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		73566F9414A00D4B00EF64DE /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				73566F9514A00D4B00EF64DE /* NSData+CommonCrypto.h */,
+				73566F9614A00D4B00EF64DE /* NSData+CommonCrypto.m */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73566F7114A00D0E00EF64DE /* Passwords */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73566F9014A00D1000EF64DE /* Build configuration list for PBXNativeTarget "Passwords" */;
+			buildPhases = (
+				73566F6E14A00D0E00EF64DE /* Sources */,
+				73566F6F14A00D0E00EF64DE /* Frameworks */,
+				73566F7014A00D0E00EF64DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Passwords;
+			productName = Passwords;
+			productReference = 73566F7214A00D0E00EF64DE /* Passwords.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73566F6914A00D0D00EF64DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Emojico;
+			};
+			buildConfigurationList = 73566F6C14A00D0D00EF64DE /* Build configuration list for PBXProject "Passwords" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 73566F6714A00D0D00EF64DE;
+			productRefGroup = 73566F7314A00D0E00EF64DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73566F7114A00D0E00EF64DE /* Passwords */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73566F7014A00D0E00EF64DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73566F8114A00D0F00EF64DE /* InfoPlist.strings in Resources */,
+				73566F8714A00D0F00EF64DE /* Credits.rtf in Resources */,
+				73566F8D14A00D1000EF64DE /* MainMenu.xib in Resources */,
+				73566FA114A0307F00EF64DE /* Icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73566F6E14A00D0E00EF64DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73566F8314A00D0F00EF64DE /* main.m in Sources */,
+				73566F8A14A00D0F00EF64DE /* AppDelegate.m in Sources */,
+				73566F9714A00D4B00EF64DE /* NSData+CommonCrypto.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		73566F7F14A00D0F00EF64DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73566F8014A00D0F00EF64DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		73566F8514A00D0F00EF64DE /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73566F8614A00D0F00EF64DE /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		73566F8B14A00D1000EF64DE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73566F8C14A00D1000EF64DE /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73566F8E14A00D1000EF64DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		73566F8F14A00D1000EF64DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		73566F9114A00D1000EF64DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Passwords/Passwords-Prefix.pch";
+				INFOPLIST_FILE = "Passwords/Passwords-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		73566F9214A00D1000EF64DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Passwords/Passwords-Prefix.pch";
+				INFOPLIST_FILE = "Passwords/Passwords-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73566F6C14A00D0D00EF64DE /* Build configuration list for PBXProject "Passwords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73566F8E14A00D1000EF64DE /* Debug */,
+				73566F8F14A00D1000EF64DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73566F9014A00D1000EF64DE /* Build configuration list for PBXNativeTarget "Passwords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73566F9114A00D1000EF64DE /* Debug */,
+				73566F9214A00D1000EF64DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73566F6914A00D0D00EF64DE /* Project object */;
+}
